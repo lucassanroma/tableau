@@ -1,0 +1,36 @@
+@import 'bootstrap';
+
+/* navbar */
+.navbar-default {
+	background-color: #fff;
+	border: 0px;
+}
+
+/* navbar logo*/
+.navbar-brand {
+	font-size: 30px;
+}
+
+/* Jumbotron*/
+.jumbotron {
+    padding: 30px;
+
+    h1 {
+        font-size: 44px;
+    } 
+
+    .price {
+    	font-size: 14px;
+    	margin-top: 50px;
+    	
+    }
+}
+
+.footer {
+	margin-top: 50px;
+	color: graylight;
+	a {
+		color: gray;
+	}
+}
+
