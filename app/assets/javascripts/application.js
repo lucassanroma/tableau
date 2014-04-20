@@ -13,5 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require jquery-ui
+//= require jquery-popover
 //= require turbolinks
 //= require_tree .
