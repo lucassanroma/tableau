@@ -14,8 +14,9 @@ group :development, :test do
 end
 
 gem 'bootstrap-sass', '~> 3.1.1'
-
+gem 'jquery-ui-rails'
 gem 'jquery-popover'
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
