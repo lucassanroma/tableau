@@ -1,6 +1,6 @@
 <div class="navbar navbar-default navbar-static-top">
 	<div class="container">
-		<a href="#" class="navbar-brand">Tableau Viewer</a>
+		<b><%= link_to "Tableau Viewer", root_path, class: "navbar-brand" %></b>
 
 		<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
 			<span class = "icon-bar"></span>
@@ -11,12 +11,19 @@
 		<div class="collapse navbar-collapse navHeaderCollapse">
 
 			<ul class = "nav navbar-nav navbar-right">
-				<li><a href="#">HOME</a></li>
-				<li><a href="#">FEATURES</a></li>
-				<li><a href="#">PRICING</a></li>
-				<li><a href="#">CONTACT</a></li>
-				<li><a href="#">LOGIN</a></li>
-			</ul>
+				
+
+				<% if user_signed_in? %>		
+				  <li><%= link_to "EDIT ACCOUNT", edit_user_registration_path %></li>
+					<li><%= link_to "LOGOUT", destroy_user_session_path, method: :delete %></li>
+				<% else %>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">FEATURES</a></li>
+					<li><a href="#">PRICING</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><%= link_to "LOGIN", new_user_session_path %></li>
+				<% end %>
+			</ul
 		</div>
 	</div>
 </div>
