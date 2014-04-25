@@ -17,7 +17,7 @@
 				  <li><%= link_to "EDIT ACCOUNT", edit_user_registration_path %></li>
 					<li><%= link_to "LOGOUT", destroy_user_session_path, method: :delete %></li>
 				<% else %>
-					<li><a href="#">HOME</a></li>
+					<li><%= link_to "HOME", root_path%></li>
 					<li><a href="#">FEATURES</a></li>
 					<li><a href="#">PRICING</a></li>
 					<li><a href="#">CONTACT</a></li>
