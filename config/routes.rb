@@ -2,9 +2,10 @@ Rails.application.routes.draw do
 
   resources :pins
 
-devise_for :users
-get 'about' => 'pages#about'
-root :to => 'pages#home'
+  devise_for :users
+  get 'about' => 'pages#about'
+  get 'account' => 'pages#account'
+  root :to => 'pages#home'
 
 #root :to =>'home#index'
 

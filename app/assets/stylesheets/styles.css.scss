@@ -31,8 +31,11 @@ body{
 /* navbar hover color font*/
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #428bca;
+}
 
- 
+.bs-sidebar .nav > .active > ul {
+    display: block;
+    margin-bottom: 8px;
 }
 
 .col-md-8 {
@@ -71,6 +74,21 @@ body{
 	  margin-bottom: 10px;
 	  padding: 0px;	    	
 	}
+}
+
+.manage_header{
+
+background-color: #444;
+font:#fff;
+margin: 0px;
+padding: 0px;
+
+h3 {
+color:#fff;	
+text-align: center;
+padding: 10px;
+}
+
 }
 
 .highligh{
