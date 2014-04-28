@@ -83,12 +83,17 @@ font:#fff;
 margin: 0px;
 padding: 0px;
 
-h3 {
-color:#fff;	
-text-align: center;
-padding: 10px;
+	h3 {
+		color:#fff;	
+		text-align: center;
+		padding: 10px;
+	}
+
 }
 
+.red, .red .active a,
+.red .active a:hover {
+    background-color: red !important;
 }
 
 .highligh{
