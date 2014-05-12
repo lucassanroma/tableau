@@ -6,12 +6,14 @@ body{
 	}
 
 .container {
-	
 
 	h2 {
 		text-align: center;	
-		padding-bottom: 30px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+
 	}
+	
 }
 
 /* navbar */
@@ -96,7 +98,19 @@ padding: 0px;
     background-color: red !important;
 }
 
-.highligh{
+.col-md-4 {
+
+	font-size: 24px;
+	text-align: center;
+
+}
+
+hr {
+  border-color: #e1e1e1 ;
+  margin: 60px 0;
+}
+
+.highligh {
 	color: #428bca;
 }
 
@@ -106,7 +120,5 @@ padding: 0px;
 	a {
 		color: gray;
 	}
-
-
 }
 
